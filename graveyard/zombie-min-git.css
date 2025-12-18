@@ -68,6 +68,8 @@ imgLogoIcon {
 .headerRight .paper-icon-button-light,
 .layout-desktop .detailPagePrimaryContainer .mainDetailButtons {
   margin: 0;
+  padding-top: 2em;
+  flex: 1 0 0;
 }
 .headerRight,
 .headerTabs {

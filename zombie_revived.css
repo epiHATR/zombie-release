@@ -838,6 +838,8 @@ imgLogoIcon {
   color: rgba(var(--darkest));
 }
 .layout-desktop .detailPagePrimaryContainer .mainDetailButtons {
+  flex: 1 0 0;
+  padding-top: 2em;
   margin: 0em 0;
 }
 .layout-desktop div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
@@ -2857,7 +2859,7 @@ layout-mobile .detailPagePrimaryContent {
 }
 @media (min-width: 0) and (max-width: 1280px) and (orientation: landscape) {
   [dir="ltr"] .infoWrapper {
-    padding-left: 2.5em !important;
+    padding-left: 0em !important;
     padding-top: 5em !important;
   }
   [dir="ltr"] .mainDetailButtons {
@@ -2942,7 +2944,7 @@ layout-mobile .detailPagePrimaryContent {
 }
 @media only screen and (min-width: 1281px) and (max-width: 1920px) and (orientation: landscape) {
   [dir="ltr"] .infoWrapper {
-    padding-left: 2.5em !important;
+    padding-left: 0em !important;
     padding-top: 5em !important;
   }
   [dir="ltr"] .mainDetailButtons {
@@ -2961,7 +2963,7 @@ layout-mobile .detailPagePrimaryContent {
 }
 @media only screen and (min-width: 1921px) and (max-width: 3840px) and (orientation: landscape) {
   [dir="ltr"] .infoWrapper {
-    padding-left: 2.5em !important;
+    padding-left: 0em !important;
     padding-top: 5em !important;
   }
   [dir="ltr"] .mainDetailButtons {
@@ -2980,7 +2982,7 @@ layout-mobile .detailPagePrimaryContent {
 }
 @media only screen and (min-width: 3841px) and (orientation: landscape) {
   [dir="ltr"] .infoWrapper {
-    padding-left: 2.5em !important;
+    padding-left: 0em !important;
     padding-top: 5em !important;
   }
   [dir="ltr"] .mainDetailButtons {
